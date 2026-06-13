@@ -20,24 +20,26 @@ The repository is intended to support three lightweight outputs:
 
 - A business-friendly markdown report
 - A notebook that documents the analysis workflow
-- Exported charts and tables for screening results
+- Exported charts and summary tables for screening results
+
+Large row-level files such as the raw source dataset, the cleaned full asset table, and the full priority export are generated locally but not committed in this public portfolio version.
 
 ## Repository Structure
 
 ```text
 water-pipe-renewal-priority-analysis/
-├── README.md
-├── asset_renewal_priority_report.md
-├── analysis/
-│   └── water_pipe_analysis.ipynb
-├── data/
-│   └── raw/
-├── outputs/
-│   ├── charts/
-│   ├── tables/
-│   └── priority_pipe_list.csv
-├── requirements.txt
-└── .gitignore
+|-- README.md
+|-- asset_renewal_priority_report.md
+|-- analysis/
+|   `-- water_pipe_analysis.ipynb
+|-- data/
+|   `-- raw/
+|       `-- README.md
+|-- outputs/
+|   |-- charts/
+|   `-- tables/
+|-- requirements.txt
+`-- .gitignore
 ```
 
 ## How to Run
@@ -48,9 +50,12 @@ water-pipe-renewal-priority-analysis/
 4. Open `analysis/water_pipe_analysis.ipynb` in Jupyter.
 5. Run the notebook sections step by step to generate charts, tables, and the screening output list.
 
+For GitHub presentation, the repository keeps report-ready charts and summary tables in version control, while larger row-level outputs remain local.
+
 ## Limitations
 
 - The project depends on the quality and completeness of the available open asset data.
 - The screening logic is intended for portfolio review and prioritisation support only.
 - The outputs do not predict pipe failures or determine final renewal decisions.
 - More detailed engineering review would still be required before any operational or capital planning decision.
+- Public repository contents are intentionally lighter than the full local working files to keep the portfolio version readable and easier to clone.
