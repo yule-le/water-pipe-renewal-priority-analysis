@@ -1,0 +1,12 @@
+analytical_role,selected_dataset_column,business_meaning,use_in_analysis,notes
+Unique asset identifier,Asset ID,Primary identifier for each pipe asset record,Main asset-level identifier across the project,"Use Asset ID as the main asset identifier rather than OBJECTID, Historic ID, or Key."
+Operational status,Operational Status,Indicates whether the asset is currently in service or otherwise operationally classified,Context field for later asset interpretation,Retain as an operational context field for later review.
+System type,System Type,Describes the broad water system classification for the pipe asset,Used to confirm the portfolio context of the records,Retain to confirm the asset group being analysed.
+Material,Material,Pipe material type,Used for asset profile review and later material-based screening,Retain as a core descriptive and analytical field.
+Diameter,Diameter_mm,Pipe diameter in millimetres,Used for pipe size analysis and later criticality proxy review,Retain as the primary pipe size field.
+Length,Length_m,Pipe segment length in metres,Used for pipe length summaries and later exposure context,Length_m should be used for pipe length summaries.
+Install date,Date Installed,Recorded installation date for the pipe asset,Primary date field for later asset age estimation,Date Installed should be used to estimate asset age. Acquisition Date should be retained as a reference field but should not be used as the primary age field.
+Decommission date,Date Decommissioned,"Date the pipe asset was decommissioned, if applicable",Later review of decommissioning status and asset lifecycle context,Retain to understand whether an asset remains active in the current portfolio.
+Operational zone,DMA Zone,Operational zone or district metered area grouping,Used for zone-level summaries if appropriate,DMA Zone should be used for zone-level summaries if the field is sufficiently complete.
+Condition,Condition Grade,Condition-related field indicating the recorded state of the asset,"Potential later input to renewal screening, subject to validation",Condition Grade should be checked in the next task before deciding whether it can be used in priority scoring.
+Criticality,Criticality,Recorded criticality or importance indicator for the asset,"Potential later input to renewal screening, subject to validation",Criticality should be checked in the next task before deciding whether it can be used in priority scoring.

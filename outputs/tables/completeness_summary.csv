@@ -1,0 +1,12 @@
+field_name,non_null_count,missing_count,missing_rate
+asset_id,253690,0,0.0
+operational_status,253689,1,0.0
+system_type,253690,0,0.0
+material,199622,54068,0.2131
+diameter_mm,243321,10369,0.0409
+length_m,253685,5,0.0
+date_installed,201113,52577,0.2072
+date_decommissioned,15291,238399,0.9397
+dma_zone,250192,3498,0.0138
+condition_grade,247971,5719,0.0225
+criticality,170631,83059,0.3274

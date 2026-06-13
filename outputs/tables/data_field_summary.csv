@@ -1,0 +1,36 @@
+column_name,data_type,non_null_count,missing_count,missing_rate,example_value,possible_business_meaning,use_in_analysis
+OBJECTID,int64,253690,0,0.0,1,Unique or system asset identifier,Duplicate checks and asset-level analysis
+Asset ID,str,253690,0,0.0,GWRC_CI_PWP000001,Unique or system asset identifier,Duplicate checks and asset-level analysis
+Start_Node_ID,str,175435,78255,0.3085,GWRC_PW000684,To be reviewed,To be reviewed
+End_Node_ID,str,179019,74671,0.2943,GWRC_PW102565,To be reviewed,To be reviewed
+Operational Status,str,253689,1,0.0,In Use,Operational or asset classification field,Potential descriptive context for later review
+System Type,str,253690,0,0.0,Potable Water,Operational or asset classification field,Potential descriptive context for later review
+Pipe Type,str,253683,7,0.0,Main,Operational or asset classification field,Potential descriptive context for later review
+Pipe Use,str,183505,70185,0.2767,Pressure,Operational or asset classification field,Potential descriptive context for later review
+Pipe Class,str,29786,223904,0.8826,UK,Operational or asset classification field,Potential descriptive context for later review
+Owner,str,253688,2,0.0,GWRC,Operational or asset classification field,Potential descriptive context for later review
+Maintenance,str,253503,187,0.0007,Wellington Water Alliance,Operational or asset classification field,Potential descriptive context for later review
+Date Installed,str,201113,52577,0.2072,1/1/1979 12:00:00 AM,Date-related asset information,Potential asset age input if confirmed suitable
+Date Decommissioned,str,15291,238399,0.9397,9/24/2024 12:00:00 AM,Date-related asset information,Potential asset age input if confirmed suitable
+Diameter_mm,float64,243321,10369,0.0409,375.0,Pipe size or nominal diameter,Asset profile and criticality proxy later
+Length_m,float64,253685,5,0.0,0.62,Pipe segment length,Length summaries and exposure context later
+Capacity_m3,float64,8,253682,1.0,0.0,To be reviewed,To be reviewed
+Material,str,199622,54068,0.2131,STCL,Pipe material,Asset profile and material-based scoring later
+Joint Type,str,4449,249241,0.9825,VJ,Operational or asset classification field,Potential descriptive context for later review
+Lining Type,str,67,253623,0.9997,SLIP,Operational or asset classification field,Potential descriptive context for later review
+Date Lined,str,2868,250822,0.9887,1/1/2000 12:00:00 AM,Date-related asset information,Potential asset age input if confirmed suitable
+External Protection,str,1219,252471,0.9952,EPOX,To be reviewed,To be reviewed
+External Protection_Date,str,108,253582,0.9996,5/1/2015 12:00:00 AM,Date-related asset information,Potential asset age input if confirmed suitable
+DMA Zone,str,250192,3498,0.0138,CBD,Location or service area grouping,Regional summaries if suitable
+Condition Grade,float64,247971,5719,0.0225,2.0,Operational or asset classification field,Potential descriptive context for later review
+Criticality,float64,170631,83059,0.3274,0.0,Operational or asset classification field,Potential descriptive context for later review
+Acquisition_Code,str,55576,198114,0.7809,FOUND,Date-related asset information,Potential asset age input if confirmed suitable
+Acquisition Date,float64,0,253690,1.0,,Date-related asset information,Potential asset age input if confirmed suitable
+Historic ID,str,168960,84730,0.334,115645,Unique or system asset identifier,Duplicate checks and asset-level analysis
+Key,float64,0,253690,1.0,,Unique or system asset identifier,Duplicate checks and asset-level analysis
+Plan Reference,str,96535,157155,0.6195,A1-5912/1-BS,To be reviewed,To be reviewed
+Region,str,253690,0,0.0,Greater Wellington,Location or service area grouping,Regional summaries if suitable
+Notes,str,121259,132431,0.522,Old InfoAsset ID: WW-VLVNG001 - WW-VLV027,To be reviewed,To be reviewed
+uid,str,253690,0,0.0,52FF2E65D8EE44AF98C1978DB1879543,Unique or system asset identifier,Duplicate checks and asset-level analysis
+globalid,str,253690,0,0.0,24a99882-6a9e-4353-ad26-078afb7b4e44,Unique or system asset identifier,Duplicate checks and asset-level analysis
+Shape__Length,float64,253690,0,0.0,0.615548533483427,Pipe segment length,Length summaries and exposure context later

@@ -1,0 +1,8 @@
+age_band,screening_ready_assets,high_review_priority_assets,high_review_priority_rate
+0-20,56611,40,0.0007
+21-40,31180,61,0.002
+41-60,54142,14427,0.2665
+61-80,27284,20463,0.75
+80+,22044,21084,0.9565
+Unknown,0,0,
+Age data review,48,48,1.0

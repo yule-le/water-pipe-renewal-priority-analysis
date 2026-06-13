@@ -1,0 +1,9 @@
+data_review_issue,asset_count,percentage_of_data_review_required
+Missing material,54068,0.8667
+Missing install date,52577,0.8428
+Invalid diameter,19319,0.3097
+Missing diameter,10369,0.1662
+Invalid length,18,0.0003
+Missing length,5,0.0001
+Install date in the future,1,0.0
+Negative asset age,1,0.0

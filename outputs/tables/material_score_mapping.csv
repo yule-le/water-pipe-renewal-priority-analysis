@@ -1,0 +1,13 @@
+material_category,material_score,mapping_rationale
+AC,3,older material group based on asset profile
+CI,3,older material group based on asset profile
+GI,3,older material group based on asset profile
+STCL,2,legacy or mixed material group based on asset profile
+EW,2,legacy or mixed material group based on asset profile
+CONC,2,legacy or mixed material group based on asset profile
+STEEL,2,legacy or mixed material group based on asset profile
+PE80,1,newer plastic material group
+PE100,1,newer plastic material group
+PVC,1,newer plastic material group
+uPVC,1,newer plastic material group
+UPVC,1,newer plastic material group

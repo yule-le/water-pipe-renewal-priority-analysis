@@ -1,0 +1,5 @@
+data_quality_flag,asset_count,percentage_of_total
+Complete,120513,0.475
+Major Issue,68463,0.2699
+Data Review Required,62381,0.2459
+Minor Issue,2333,0.0092

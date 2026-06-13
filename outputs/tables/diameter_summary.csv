@@ -1,0 +1,7 @@
+metric,value
+valid_record_count,224002.0
+excluded_record_count,29688.0
+mean_diameter_mm,70.87
+median_diameter_mm,25.0
+min_diameter_mm,10.0
+max_diameter_mm,1500.0

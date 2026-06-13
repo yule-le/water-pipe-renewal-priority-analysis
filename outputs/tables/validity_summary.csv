@@ -1,0 +1,16 @@
+issue_name,issue_count,issue_rate
+missing asset_id,0,0.0
+duplicate asset_id,0,0.0
+diameter_mm <= 0,19319,0.0762
+missing diameter_mm,10369,0.0409
+length_m <= 0,18,0.0001
+missing length_m,5,0.0
+missing material,54068,0.2131
+missing date_installed,52577,0.2072
+date_installed in the future,1,0.0
+asset_age < 0,1,0.0
+asset_age > 150,48,0.0002
+missing operational_status,1,0.0
+missing dma_zone,3498,0.0138
+missing condition_grade,5719,0.0225
+missing criticality,83059,0.3274
