@@ -58,7 +58,7 @@ The most material missing-field constraints at this stage are:
 - `Date Installed`: 52,577 missing records (20.7%)
 - `Diameter_mm`: 10,369 missing records (4.1%)
 
-The main validity issues identified include 19,319 records with non-positive `Diameter_mm`, 18 records with non-positive `Length_m`, and 48 records with asset age above 150 years based on `Date Installed`. In this analysis, ages above 150 years are treated as a data review threshold rather than being assumed invalid. No missing or duplicate `Asset ID` records were identified in this check.
+The main validity issues identified include 19,319 records with `Diameter_mm` recorded as `0 mm` and treated as invalid, 18 records with non-positive `Length_m`, and 48 records with asset age above 150 years based on `Date Installed`. In this analysis, ages above 150 years are treated as a data review threshold rather than being assumed invalid. No missing or duplicate `Asset ID` records were identified in this check.
 
 Using the project-defined data quality flagging rules, 62,381 assets were marked `Data Review Required`, 68,463 were marked `Major Issue`, 2,333 were marked `Minor Issue`, and 120,513 were marked `Complete`.
 

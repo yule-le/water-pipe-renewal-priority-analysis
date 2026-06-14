@@ -7,5 +7,6 @@ __pycache__/
 .ipython/
 analysis/.matplotlib/
 data/raw/*.csv
+data/raw/Regional_Water_Pipes_-2672111803009019937.geojson
 outputs/priority_pipe_list.csv
 outputs/tables/pipe_assets_cleaned.csv
