@@ -1,0 +1,6 @@
+material_group,median_asset_age,p25_asset_age,p75_asset_age,asset_count
+CI,101.0,71.0,117.0,8936
+AC,57.0,51.0,65.0,24087
+STCL,51.0,36.0,72.0,11381
+PE80,29.0,18.0,43.0,47175
+PE100,5.0,3.0,10.0,28694
