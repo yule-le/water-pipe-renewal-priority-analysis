@@ -1,8 +1,8 @@
-# water-pipe-renewal-priority-analysis
+# Wellington Water Pipe Asset Portfolio and Renewal Priority Screening
 
 ## Project Overview
 
-This is a lightweight portfolio project that uses open water pipe asset data to assess data quality, understand the current pipe asset profile, and create a simple renewal priority screening list.
+This is an independent, lightweight portfolio analysis project that uses publicly available Wellington Water Open Data to assess data quality, understand the current Wellington regional water pipe asset portfolio, and create a simple renewal priority screening output.
 
 The project is designed to produce clear, business-friendly outputs rather than a complex technical system. It supports portfolio-level asset review by combining basic data checks, descriptive analysis, and a transparent screening approach.
 
@@ -12,7 +12,16 @@ This project provides a portfolio-level screening approach, not a pipe failure p
 
 Water utilities often manage aging underground pipe networks with incomplete asset records and limited renewal budgets. A practical first step is to understand what asset data is available, where the main data quality gaps are, and which assets may warrant closer review for future renewal planning.
 
-This repository demonstrates a simple analyst workflow for that purpose using open water pipe asset data.
+This repository demonstrates a simple analyst workflow for that purpose using publicly available Wellington Water open data. It is an independent portfolio project and should not be read as official Wellington Water analysis.
+
+## Data Source
+
+- Dataset: `Regional Water Pipes`
+- Source: `Wellington Water Open Data`
+- URL: [https://data-wellingtonwater.opendata.arcgis.com/datasets/d264f8d5c8bb4c519412b7ed86d5bcb8_0/about](https://data-wellingtonwater.opendata.arcgis.com/datasets/d264f8d5c8bb4c519412b7ed86d5bcb8_0/about)
+- Local CSV used in this project: `Regional_Water_Pipes_2925950293390148246.csv`
+
+This repository presents a lightweight portfolio analysis built on public open data for reporting, screening, and follow-up review purposes.
 
 ## Project Outputs
 

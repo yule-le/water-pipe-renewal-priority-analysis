@@ -1,16 +1,27 @@
-# Water Pipe Renewal Priority Screening Report
+# Wellington Water Pipe Asset Portfolio and Renewal Priority Screening Report
 
 ## 1. Project Background
 
-Water pipe networks are long-lived infrastructure assets, and renewal decisions often need to balance asset age, condition, criticality, data quality, and available investment. This report uses open pipe asset data to create a lightweight portfolio-level screening view that helps identify where further review, data improvement, or renewal planning attention may be needed.
+Water pipe networks are long-lived infrastructure assets, and renewal decisions often need to balance asset age, condition, criticality, data quality, and available investment. This independent portfolio project uses publicly available Wellington Water Open Data to review Wellington regional water pipe assets and produce a lightweight portfolio-level reporting and renewal review screening output.
 
-The analysis is not designed to predict exact pipe failures or replace engineering assessment. Instead, it provides a transparent and practical way to summarise the asset portfolio and prepare for renewal priority screening.
+The analysis is intended to support asset planning conversations, data quality review, and further investigation by providing a transparent and practical summary of the available asset portfolio. It is not a failure prediction model, and it is not a final engineering decision tool.
 
 ## 2. Data Used
 
-The current analysis uses the raw dataset file `Regional_Water_Pipes_2925950293390148246.csv`, with 253,690 rows and 35 columns.
+This analysis uses a publicly available Wellington Water Open Data dataset covering Wellington regional water pipe assets.
+
+| Item | Details |
+| --------------- | -------------------------------------------------------------------------------------------------- |
+| Dataset | Regional Water Pipes |
+| Source | Wellington Water Open Data |
+| Dataset URL | [https://data-wellingtonwater.opendata.arcgis.com/datasets/d264f8d5c8bb4c519412b7ed86d5bcb8_0/about](https://data-wellingtonwater.opendata.arcgis.com/datasets/d264f8d5c8bb4c519412b7ed86d5bcb8_0/about) |
+| Local file used | Regional_Water_Pipes_2925950293390148246.csv |
+| Records | 253,690 |
+| Columns | 35 |
 
 At this stage, the dataset has been reviewed only for structure and field availability. The key analytical fields have been selected based on the project objective and mapped to the dataset columns that best support later portfolio analysis.
+
+The dataset contains Wellington regional water pipe asset attributes such as asset ID, operational status, material, diameter, length, installation date, DMA zone, condition grade, and criticality.
 
 Confirmed field mapping:
 
